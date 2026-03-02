@@ -1,0 +1,2 @@
+# novo.py
+print ("Bem-vinda ao projeto de jogos acessiveis!")
