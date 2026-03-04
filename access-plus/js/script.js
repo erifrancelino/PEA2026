@@ -7,13 +7,31 @@ const toggleButton = document.getElementById("toggle-contrast");
 
 // Função para criar alertas acessíveis
 function showAlert(message, type = "info") {
-    const container = document.getElementById("alerts-container");
+    // Verifica se o container existe, senão cria
+    let container = document.getElementById("alerts-container");
+    if (!container) {
+        container = document.createElement("div");
+        container.id = "alerts-container";
+        container.setAttribute("aria-live", "polite");
+        container.setAttribute("aria-atomic", "true");
+        container.style.position = "fixed";
+        container.style.top = "1rem";
+        container.style.right = "1rem";
+        container.style.zIndex = "1000";
+        document.body.appendChild(container);
+    }
 
     // Cria a caixa de alerta
     const alertBox = document.createElement("div");
     alertBox.textContent = message;
     alertBox.className = `alert alert-${type}`;
     alertBox.setAttribute("role", "alert"); // leitura por leitores de tela
+    alertBox.style.backgroundColor = "#7A9E7E"; // cor da paleta
+    alertBox.style.color = "#fff";
+    alertBox.style.padding = "0.5rem 1rem";
+    alertBox.style.marginBottom = "0.5rem";
+    alertBox.style.borderRadius = "4px";
+    alertBox.style.boxShadow = "0 2px 4px rgba(0,0,0,0.2)";
 
     container.appendChild(alertBox);
 
