@@ -1,3 +1,12 @@
+# Access+
+
+![Preview do projeto](preview.png)
+
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-green)
+
 # Objetivo do Projeto
 
 O **Access+** foi desenvolvido para demonstrar práticas de desenvolvimento front-end com ênfase em:
