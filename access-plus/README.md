@@ -1,80 +1,122 @@
 
-## Como Rodar
+em qualquer navegador moderno.
 
-1. Clone o repositório:  
-   ```bash
-   git clone https://github.com/erifrancelino/PEA2026.git
-# Access+
+---
 
-Projeto demonstrativo de acessibilidade digital com foco técnico em front-end.
+# Objetivo do Projeto
 
-## Objetivo do Projeto
+O **Access+** foi desenvolvido para demonstrar práticas de desenvolvimento front-end com ênfase em:
 
-O Access+ foi desenvolvido para demonstrar práticas de desenvolvimento front-end com ênfase em acessibilidade e identidade editorial.  
+- acessibilidade digital
+- estrutura semântica
+- identidade editorial
+
 O projeto tem caráter **educativo** e serve como **exemplo técnico de portfólio acessível**.
 
-### Público-alvo
+---
 
-**Primário:**
+# Público-Alvo
 
-- Estudantes de tecnologia (ADS, Ciência da Computação, Engenharia de Software)  
-- Desenvolvedores front-end e back-end  
-- Recrutadores e empresas de design  
+## Primário
 
-**Secundário:**
+- Estudantes de tecnologia (ADS, Ciência da Computação, Engenharia de Software)
+- Desenvolvedores front-end e back-end
+- Recrutadores e empresas de tecnologia e design
 
-- Educadores  
-- Pessoas interessadas em acessibilidade digital  
-- Desenvolvedores e designers iniciantes  
+## Secundário
 
-## Metas Técnicas
+- Educadores
+- Pessoas interessadas em acessibilidade digital
+- Desenvolvedores iniciantes
 
-- Aplicar HTML semântico corretamente (`header`, `nav`, `main`, `section`, `footer`)  
-- Implementar práticas alinhadas às diretrizes WCAG  
-- Utilizar atributos ARIA de forma estratégica  
-- Navegação totalmente funcional via teclado  
-- Criar botão de alto contraste com JavaScript  
-- Garantir contraste mínimo adequado entre texto e fundo  
-- Organizar o projeto utilizando metodologia ágil (Sprints)  
-- Versionar o desenvolvimento com commits estruturados no GitHub  
-- Documentar decisões técnicas no README  
+---
 
-## Identidade Visual e Acessibilidade
+# Metas Técnicas
 
-### Paleta de cores
+O projeto busca implementar:
 
-- Fundo principal: `#F4F1EA` (bege editorial)  
-- Texto principal: `#1C1C1C` (quase preto)  
-- Cor institucional: `#7A9E7E` (verde acinzentado)  
-- Destaque editorial: `#C67C8E` (rosa queimado suave)  
-- Cor profunda para contraste estrutural: `#2F3A3F`  
+- HTML semântico corretamente (`header`, `nav`, `main`, `section`, `footer`)
+- práticas alinhadas às **diretrizes WCAG**
+- uso estratégico de **atributos ARIA**
+- **navegação funcional via teclado**
+- **botão de alto contraste com JavaScript**
+- **controle de aumento de fonte**
+- **simulação de daltonismo**
+- contraste mínimo adequado entre texto e fundo
+- organização do desenvolvimento em **Sprints**
+- versionamento do projeto no **GitHub**
+- documentação técnica no **README**
 
-**Modo alto contraste:** fundo preto (`#000`) e texto branco (`#FFF`) com ajustes automáticos em botões e bordas.
+---
 
-### Tipografia
+# Identidade Visual e Acessibilidade
 
-- Títulos: Playfair Display (serif, editorial)  
-- Texto corrido: Inter / Segoe UI (sans-serif moderna)  
-- Corpo do texto: 16px, line-height 1.7  
-- Hierarquia clara: H1 = 3.5rem, H2 = 2rem  
+## Paleta de cores
 
-### Layout e Espaçamento
+- Fundo principal: `#F4F1EA` (bege editorial)
+- Texto principal: `#1C1C1C` (quase preto)
+- Cor institucional: `#7A9E7E` (verde acinzentado)
+- Destaque editorial: `#C67C8E` (rosa queimado suave)
+- Cor estrutural profunda: `#2F3A3F`
 
-- Line-height: 1.7  
-- Margem inferior consistente em parágrafos  
-- Seções com 6rem de espaçamento vertical  
-- Layout arejado e escaneável  
+### Modo alto contraste
 
-### Botões e Links
+- fundo preto `#000`
+- texto branco `#FFF`
+- adaptação automática de botões e bordas
 
-- Links sem sublinhado padrão, com animação discreta no hover  
-- Foco acessível com outline visível  
-- Botões transparentes com borda sólida minimalista  
-- Hover invertido e destaque visível em foco  
-- Totalmente compatível com modo alto contraste  
+---
 
-## Estrutura do Projeto
+# Tipografia
 
-# Access+
+Títulos  
+Playfair Display (serif editorial)
 
-Projeto demonstrativo de acessibilidade digital com foco técnico em front-end.
+Texto corrido  
+Inter / Segoe UI (sans-serif moderna)
+
+Configuração tipográfica:
+
+- Corpo do texto: **16px**
+- Line-height: **1.7**
+- H1: **3.5rem**
+- H2: **2rem**
+
+---
+
+# Layout e Espaçamento
+
+- Line-height: 1.7
+- Margem inferior consistente em parágrafos
+- Seções com **6rem de espaçamento vertical**
+- Layout **arejado e escaneável**
+
+---
+
+# Botões e Links
+
+- Links sem sublinhado padrão
+- Animação discreta no hover
+- Foco acessível com **outline visível**
+- Botões minimalistas com borda sólida
+- Hover invertido
+- Compatível com **modo alto contraste**
+
+---
+
+# Funcionalidades de Acessibilidade
+
+O projeto inclui:
+
+- Navegação por teclado
+- Skip link ("Pular para conteúdo")
+- Botão de alto contraste
+- Simulação de daltonismo
+- Ajuste de tamanho de fonte
+- Feedback para leitores de tela
+- Estrutura semântica compatível com WCAG
+
+---
+
+# Estrutura do Projeto
+
