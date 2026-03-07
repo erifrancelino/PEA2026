@@ -1,8 +1,3 @@
-
-em qualquer navegador moderno.
-
----
-
 # Objetivo do Projeto
 
 O **Access+** foi desenvolvido para demonstrar práticas de desenvolvimento front-end com ênfase em:
@@ -116,7 +111,5 @@ O projeto inclui:
 - Feedback para leitores de tela
 - Estrutura semântica compatível com WCAG
 
----
 
-# Estrutura do Projeto
 
